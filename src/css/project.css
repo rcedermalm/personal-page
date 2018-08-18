@@ -1,0 +1,79 @@
+.type-webb {
+    background-color: #63995f;
+    fill: #63995f;
+}
+
+.type-graphics {
+    background-color: #f1a44a;   
+    fill: #f1a44a;
+}
+
+.type-game {
+    background-color: #c7d349;
+    fill: #c7d349;
+}
+
+.type-imaging {
+    background-color: palevioletred;
+    fill: palevioletred;  
+}
+
+.project {
+    /*width: 70vh;
+    height: 50vh;*/
+    width: 50vh;
+    height: 38vh;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    display:inline-block;
+    vertical-align:top;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.info-showing {
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.project-image {
+    width: 100%;
+    height: 28vh;
+}
+
+
+.project-title {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.project-course {
+    font-size: 12px;
+    margin:0;
+}
+
+.project-info {
+    margin-top: 10px;
+}
+
+.projects {
+    padding: 10vh 0vh;
+}
+
+.projects-large-title {
+    font-size: 45px;
+    margin: 20px;
+}
+
+.colour-descriptions{
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+}
+
+.desc-center {
+    display:inline;
+    vertical-align: middle;
+}
