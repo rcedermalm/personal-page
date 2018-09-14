@@ -1,0 +1,124 @@
+{
+    "projects": [
+        {
+            "title": "MovieViz",
+            "course": "TNM048 - Information Visualization",
+            "year": 4,	
+            "nr_collabs": 1,
+            "image_id": "1uaDwZ-Z8WoGIXFCV5q5qZB8fp7ODM9aX",	
+            "info": "A movie visualization tool for comparing your favourite movies. The project was done during the course TNM048 Information Visualization. The data used was from IMDb and contains around 4600 data points. Developed skills in: Javascript",	
+            "type": "type-webb",	
+            "movie": "",	
+            "homepage": "https://rcedermalm.github.io/movieViz/",
+            "github": "https://github.com/rcedermalm/movieViz"
+        },
+        {
+            "title": "DictatAR",
+            "course": "TDDD57 - Phys. interaction and game programming",
+            "year": 4,	
+            "nr_collabs": 2,
+            "image_id": "1j1Ozvj9QwJHYHiWFWtOLFS9AWZ_IEyPk",	
+            "info": "An AR game developed during the course TDDD57 Physical Interaction and Game Programming. The goal is to keep the castle in the middle alive as long as possible. The user has to walk around the castle to be able to see the different enemies that are spawn in a large circle around it.  Developed skills: Unity, C#, Blender, ARkit",	
+            "type": "type-game",	
+            "movie": "",	
+            "homepage": "",
+            "github": ""
+        },
+        {
+            "title": "Face Recognition", 
+            "course": "TNM034 - Advanced Image Processing", 
+            "year": 4, 
+            "nr_collabs": 1, 
+            "image_id": "133uPtgxjCyoqI9MtLPssBjmVC5FDk2P0", 
+            "info": "Project done in the course Advanced Image Processing (TNM034). Both face detection and face recognition implemented in Matlab. Developed skills in: Matlab", 
+            "type": "type-signal-processing", 
+            "movie": "", 
+            "homepage": "", 
+            "github": "https://github.com/rcedermalm/TNM034_Face_Recognition"
+        },
+        {
+            "title": "A Study in Pitch", 
+            "course": "TFYA65 - Physics of Sound", 
+            "year": 3, 
+            "nr_collabs": 2, 
+            "image_id": "133uPtgxjCyoqI9MtLPssBjmVC5FDk2P0", 
+            "info": "A project made entirely in MATLAB. The program detects the pitch you are singing/talking in real time. Developed skills in: MATLAB", 
+            "type": "type-signal-processing", 
+            "movie": "", 
+            "homepage": "", 
+            "github": ""
+        },
+        {
+            "title": "Medical Test Data Application", 
+            "course": "TNM094 - Bachelor Project", 
+            "year": 3, 
+            "nr_collabs": 5, 
+            "image_id": "14_UXfNE7eYyRhwWaDkee8ddo7xpcHF1e", 
+            "info": "A bachelor project. The group created a way to interact with a database of medical test data. A user is able to add, remove and search for testdata in a user-friendly web application. Developed skills in: JavaScript (AngularJS), HTML, CSS", 
+            "type": "type-webb", 
+            "movie": "", 
+            "homepage": "", 
+            "github": "https://github.com/rcedermalm/ProjectH"
+        },
+        {
+            "title": "TyglaDig", 
+            "course": "TNM085 - Modelling Project", 
+            "year": 3, 
+            "nr_collabs": 3, 
+            "image_id": "1eOTQ2gQ-Z4lb_tSTyGADzbNVGfKRqYrZ", 
+            "info": "A simulation of cloth done in a modelling project for the course TNM085. Developed skills in: OpenGL, C++", 
+            "type": "type-graphics", 
+            "movie": "https://www.youtube.com/embed/mx1k_C8rC9Y", 
+            "homepage": "", 
+            "github": "https://github.com/rcedermalm/TYGlaDig"
+        },
+        {
+            "title": "DMA", 
+            "course": "TNM061 - 3D Computer Graphics", 
+            "year": 2, 
+            "nr_collabs": 3, 
+            "image_id": "1cDtABog3WHsuFE5WSbHc9elLGuypfcr6", 
+            "info": "A web application visualizing a MIDI-file in 3D made for the 3D Computer Graphics course. The programming languages used were javascript together with the library three.js. Developed skills in: JavaScript, three.js, webGL.", 
+            "type": "type-graphics", 
+            "movie": "", 
+            "homepage": "https://rcedermalm.github.io/3D-MIDI-visualizer/", 
+            "github": "https://github.com/rcedermalm/3D-MIDI-visualizer"
+        },
+        {
+            "title": "SenApp", 
+            "course": "TNM040 - Communication and User Interfaces", 
+            "year": 2, 
+            "nr_collabs": 3, 
+            "image_id": "1oqfAeq8hnP6r9pTta5Y0WQ_bP__olhwU", 
+            "info": "In this course the main focus was to learn what a good user interface looks like. Our project was to make an application that helped the user to keep track of their upcoming meetings and how late the user and its team members are totally at the various meetings. Developed skills in: Android Application Development, Android Studios", 
+            "type": "type-other", 
+            "movie": "", 
+            "homepage": "", 
+            "github": "https://github.com/rcedermalm/SenApp"
+        },
+        {
+            "title": "LEGO", 
+            "course": "TNMK30 - Electronic Publishing", 
+            "year": 1, 
+            "nr_collabs": 3, 
+            "image_id": "1oaMq4Spn9cj4wFsAE5exo_f92qWGMI-7", 
+            "info": "Electronic publishing, year one, is the introduction course to web programming. The project of the course was to make a website with the help of a LEGO database, where the user would be able to search for Lego sets and see which pieces it contained, and some brief information about the kit. Developed skills in: HTML, CSS, JavaScript, PHP, MySQL", 
+            "type": "type-webb", 
+            "movie": "", 
+            "homepage": "", 
+            "github": ""
+        }, 
+        {
+            "title": "Mellan Husen", 
+            "course": "TNM088 - Digital Media", 
+            "year": 1, 
+            "nr_collabs": 3, 
+            "image_id": "1J6FkMCIUH7Vh-LhsoieODJvOQA2r9Rm1", 
+            "info": "A 2D animated shortfilm about the introduction weeks 2014 with a lot of inside jokes where I was the illustrator. Developed skills in: Adobe Photoshop, Adobe Illustrator, Adobe Flash", 
+            "type": "type-other", 
+            "movie": "https://www.youtube.com/embed/Nh1Iijx6tUw", 
+            "homepage": "", 
+            "github": ""
+        }
+    ]
+}

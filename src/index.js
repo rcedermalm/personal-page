@@ -5,6 +5,7 @@ import configureStore from './store/configureStore';
 import registerServiceWorker from './registerServiceWorker';
 import App from './App';
 import './css/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const store = configureStore();
 

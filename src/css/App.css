@@ -18,11 +18,12 @@
   background-attachment: fixed;
   background-position:center;
   padding: 0;
-  margin: 0;
+  margin: 0 !important;
 }
 
 .profile-image {
   border-radius: 50%;
   height: 50vh;
-  margin-top: 20vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }

@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import * as actions from '.././actions/actions';
 import PropTypes from 'prop-types';
 import Project from './Project.js';
+import ProjectModal from './ProjectModal.js';
 import '../css/project.css';
 
 class Projects extends Component {
@@ -11,6 +12,18 @@ class Projects extends Component {
   constructor(props){
     super(props);
     this.props.actions.getProjects();
+
+    this.state = {shows_project_info: false, current_project_in_modal: null};
+    this.showProjectInfo = this.showProjectInfo.bind(this);
+    this.hideProjectInfo = this.hideProjectInfo.bind(this);
+  }
+
+  showProjectInfo(project) {
+      this.setState({shows_project_info: true, current_project_in_modal: project});
+  }
+
+  hideProjectInfo() {
+      this.setState({shows_project_info: false});
   }
 
   render() {
@@ -37,15 +50,24 @@ class Projects extends Component {
           </div>
           <div className="colour-descriptions">
             <svg className="desc-center" height="30" width="30">
-              <circle  className="type-imaging" cx="15" cy="15" r="10" />
+              <circle  className="type-signal-processing" cx="15" cy="15" r="10" />
             </svg>
-          <p className="desc-center">- Image Processing</p>
+          <p className="desc-center">- Signal Processing</p>
+          </div>
+          <div className="colour-descriptions">
+            <svg className="desc-center" height="30" width="30">
+              <circle  className="type-other" cx="15" cy="15" r="10" />
+            </svg>
+          <p className="desc-center">- Other</p>
           </div>
         </div>
-        {this.props.projects.map(function(name, index){
-            return <Project key={index} index={index}/>;
-        })}
-        </div>
+        {this.props.projects.map((item) => (
+          <Project key={item.title} project={item} handleOnClick={() => this.showProjectInfo(item)}/>
+        ))}
+        { this.state.current_project_in_modal !== null ? 
+          <ProjectModal show_modal={this.state.shows_project_info} handleClose={this.hideProjectInfo} project={this.state.current_project_in_modal}/>  
+        : null}
+       </div>
     );
   }
 }

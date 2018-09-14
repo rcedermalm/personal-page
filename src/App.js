@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import Projects from './components/Projects.js';
+import GeneralInfo from './components/GeneralInfo.js';
 import './css/App.css';
 import profile_image from './images/profile_image.png';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelopeOpen, faUserCircle } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faEnvelopeOpen)
+library.add(faUserCircle)
 
 class App extends Component {
   render() {
@@ -12,6 +18,7 @@ class App extends Component {
           <h1>Rebecca Cedermalm</h1>
           <p>Media Technology student</p>
         </header>
+        <GeneralInfo/>
         <Projects/>
       </div>
     );

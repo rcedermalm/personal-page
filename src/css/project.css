@@ -1,41 +1,71 @@
+/***********************************/
+/* The different types of projects */
+/***********************************/
+
 .type-webb {
-    background-color: #63995f;
-    fill: #63995f;
+    background-color: #7cb82f;
+    fill: #7cb82f;
+    color: #b0d775;
+}
+
+.type-webb:hover {
+    color: #5b912d;
 }
 
 .type-graphics {
-    background-color: #f1a44a;   
-    fill: #f1a44a;
+    background-color: #e68523;   
+    fill: #e68523;
+    color: #f3b86d;
+}
+
+.type-graphics:hover {
+    color: #bd5c14;
 }
 
 .type-game {
-    background-color: #c7d349;
-    fill: #c7d349;
+    background-color: #00aeb3;
+    fill: #00aeb3;
+    color: #80ced0;
+}
+.type-game:hover {
+    color: #1a858e;
 }
 
-.type-imaging {
-    background-color: palevioletred;
-    fill: palevioletred;  
+.type-signal-processing {
+    background-color: #dd5143;
+    fill: #dd5143;  
+    color: #f38a78;
 }
+
+.type-signal-processing:hover {
+    color: #af1923;
+}
+
+.type-other {
+    background-color: #edb220;   
+    fill: #edb220;
+    color: #f4d161;
+}
+
+.type-other:hover {
+    color: #b98d27;
+}
+
+/***********************************/
+/*    Overview of the projects     */
+/***********************************/
 
 .project {
-    /*width: 70vh;
-    height: 50vh;*/
-    width: 50vh;
+    width:50vh;
     height: 38vh;
     margin: 10px;
     cursor: pointer;
     color: white;
     display:inline-block;
     vertical-align:top;
-    -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-}
-
-.info-showing {
-    text-align: left;
-    padding: 5px 15px;
+    -webkit-box-shadow: 0 0 5px #DCDCDC;
+	-moz-box-shadow: 0 0 5px #DCDCDC;
+    box-shadow: 0 0 5px #DCDCDC;
 }
 
 .project-image {
@@ -43,20 +73,17 @@
     height: 28vh;
 }
 
-
 .project-title {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 3px;
+    color:white;
 }
 
 .project-course {
     font-size: 12px;
     margin:0;
-}
-
-.project-info {
-    margin-top: 10px;
+    color:white;
 }
 
 .projects {
@@ -64,16 +91,135 @@
 }
 
 .projects-large-title {
-    font-size: 45px;
+    font-size: 50px;
     margin: 20px;
 }
 
 .colour-descriptions{
     display: inline-block;
-    margin: 0 10px 20px 10px;
+    margin: 0 10px 40px 10px;
+    font-size: 14px;
 }
 
 .desc-center {
     display:inline;
     vertical-align: middle;
 }
+
+/***********************************/
+/*        The pop-up modal         */
+/***********************************/
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.2);
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+  
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+.modal-main {
+    color: white !important;
+    font-size: 14px;
+    margin: auto auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-height: 90vh;
+    position: relative;
+} 
+
+.modal-separator {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.modal-body {
+    overflow: auto;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-link {
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+
+.project-link-icon {
+    margin-right: 5px;
+}
+
+.project-info {
+    margin: 0;
+}
+
+.project-iframe-movie {
+    padding-top: 20px;
+    width: 35vw;
+    max-width: 100%;
+    height: 30vw;
+    max-height: 350px; 
+}
+
+.mobile-movie {
+    display: none;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.close-btn {
+    font-size: 25px;  
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+    text-shadow: 0 0 3px #666;
+}
+
+@media only screen and (max-width: 768px) {
+    .project-link {
+        display: block;
+    }
+
+    .modal-main {
+        width: 80%;
+    }
+
+    .project-iframe-movie {
+        display: none;
+    }
+
+    .mobile-movie {
+        display: block;
+    }
+}
+  

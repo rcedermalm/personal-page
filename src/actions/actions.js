@@ -1,6 +1,12 @@
 
-import * as types from './actionTypes';
+import { GET_PROJECTS } from './actionTypes';
+import projects_data from '../data/projects.json';
 
-export function getProjects(){
-    return {type: types.GET_PROJECTS};
+export const getProjects = () => {   
+    return {
+        type: GET_PROJECTS,
+        payload: {
+            ...projects_data.projects
+        }
+    }
 }
