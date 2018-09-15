@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/general_info.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container, Row, Col } from 'reactstrap';
 
 class GeneralInfo extends Component {
@@ -10,14 +9,22 @@ class GeneralInfo extends Component {
         <Container>
         <Row>
           <Col className="info-block">
-              <FontAwesomeIcon className="fa-icon" icon="user-circle" size="5x"/>
+              <i className="fas fa-user-circle fa-icon"></i>
               <div className="info-text">
-              <p>
-              My name is Rebecca Cedermalm and I am currently studying my fifth and last year at the Master of Science in Media Technology and Engingeering program at Linkoping University.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p>              
+                My name is Rebecca Cedermalm and I am a girl born 1995 with a passion for computer graphics. 
+                I am currently studying my fifth and last year at the Master of Science program of Media 
+                Technology at Linkoping University in Sweden. The short version of what the program contains is: 
+                programming, computer graphics and information visualization combined with the regular engineering parts. 
+                The reason I chose Media Technology is the unique combination of maths and creative visualisations.
               </p>
               <p>
-                Apart from that, I love to spend my time watching movies (I heart cinema) and using my hands doing something creative like painting or photographing. 
+                During my free time I love to spend my time reading, watching movies or creating something fun visually. 
+                The fun part can be everything between a splash of paint on a canvas to hobby projects using code. 
+              </p>
+              <p>
+                My dream work place is at a company where I have the change to learn and implement new techniques, preferably 
+                in the film or game industry.
               </p>
               </div>
           </Col>
@@ -25,27 +32,30 @@ class GeneralInfo extends Component {
                 <i className="fas fa-question-circle fa-icon"/>
                 <div className="info-text">
                 <p>
-                  So, what is this?
-                  My intentions with this page is a way for me and my future employers to keep track on what I have done during my time at the University and afterwards. 
-                  A trip down memory lane in the form of an extended resumé, so to speak.
+                  So, what is this page?
+                  My intentions with this page is a way for myself and my future employers to keep track on what 
+                  I have done during my years in the technology field. A trip down memory lane in the form of an 
+                  extended resumé, so to speak.
                 </p>
                 </div>
-
-                <FontAwesomeIcon className="fa-icon second-icon" icon="envelope-open" size="5x"/>
+ 
+                <i className="fas fa-address-card fa-icon"></i>
                 <div className="info-text">
                 <p>
-                  If you have an interesting summer or extra job you would think I would be suitable for, I am all ears. I would love to hear from you. You can 
-                  find my <a className="info-link" href="documents/CV.pdf">C.V. here</a>.
+                  If you find anything here interesting or just want to chat, 
+                  you can reach me in the following ways:
+                </p>
+                <div className="general-links">
+                <p>
+                <i className="fas fa-envelope fa-small-i-icon"/> <a className="info-link" href="mailto:rebecca@cedermalm.se">rebecca@cedermalm.se</a>
                 </p>
                 <p>
-                  If you want to get in touch with me you can always email me at rebecca@cedermalm.se.
+                  <i className="fab fa-linkedin fa-small-i-icon"/> <a className="info-link" href="https://se.linkedin.com/in/rebecca-cedermalm-76a769113" target="_blank" rel="noopener noreferrer">Rebecca Cedermalm</a>
                 </p>
                 <p>
-                  <i className="fab fa-linkedin fa-small-i-icon"/> <a className="info-link" href="https://se.linkedin.com/in/rebecca-cedermalm-76a769113">Rebecca Cedermalm</a>
+                  <i className="fab fa-github-square fa-small-i-icon"/> <a className="info-link" href="https://github.com/rcedermalm" target="_blank" rel="noopener noreferrer">rcedermalm</a>
                 </p>
-                <p>
-                  <i className="fab fa-github-square fa-small-i-icon"/> <a className="info-link" href="https://github.com/rcedermalm">rcedermalm </a>
-                </p>
+                </div>
                 </div>
           </Col>
         </Row>
