@@ -53,6 +53,16 @@ class ProjectModal extends Component {
 
         let has_atleast_one_link = has_github || has_homepage || (has_movie && small_screen);
 
+        let project_course = (project.year !== null) ? 
+            <p className="project-course">{project.course}, year {project.year}</p> 
+            : <p className="project-course">{project.course}</p>;
+
+        let project_infos = [];
+        for(var info_part in project.info){
+            project_infos.push(<p>{project.info[info_part]}</p>);
+        }
+        let project_info = (<div className="project-info">{project_infos}</div>)
+
         return (
             <div className={"modal " + showHideClassName}>
             <div className="outer">
@@ -60,11 +70,12 @@ class ProjectModal extends Component {
                 <section className={"modal-main " + project.type}>
                     <p className="close-btn" onClick={this.props.handleClose}><i className="fas fa-times"></i></p>
                     <p className="project-title">{project.title}</p>
-                    <p className="project-course">{project.course}</p>
-                    <p className="project-course">Year: {project.year} | Collaborators: {project.nr_collabs} </p>
+                    {project_course}
+                    <p className="project-course"> {project.duration} | Collaborators: {project.nr_collabs} </p>
                     <hr className="modal-separator"/>
                     <div className="modal-body" style={modal_body_max_height}>
-                        <p className="project-info">{project.info}</p>
+                        <div className="project-info">{project_info}</div>
+                        <p>Developed skills in: {project.skills_developed}</p>
                         { has_movie ?
                             <iframe className="project-iframe-movie" title={"Movie: " + project.title} type="text/html" src={project.movie} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                             : null} 
