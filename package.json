@@ -2,7 +2,7 @@
   "name": "personal-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rcedermalm.github.io",
+  "homepage": "https://rcedermalm.github.io/personal-page",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
