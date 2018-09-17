@@ -19,10 +19,12 @@ class Projects extends Component {
   }
 
   showProjectInfo(project) {
+      document.documentElement.classList.add('modal-open');
       this.setState({shows_project_info: true, current_project_in_modal: project});
   }
 
   hideProjectInfo() {
+      document.documentElement.classList.remove('modal-open');
       this.setState({shows_project_info: false});
   }
 

@@ -27,3 +27,14 @@
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
+
+.modal-open {
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-open {
+    margin-right: 0px;
+  }
+}
