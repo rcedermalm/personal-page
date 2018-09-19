@@ -7,15 +7,23 @@ class ProjectModal extends Component {
         super(props);
         this.state = { width: 0};
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
+        document.addEventListener('mousedown', this.handleClick, false);
     }
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.updateWindowDimensions);
+        document.removeEventListener('mousedown', this.handleClick, false);
+    }
+
+    handleClick(e){
+        if(!this.node.contains(e.target))
+            this.props.handleClose();
     }
 
     updateWindowDimensions() {
@@ -67,7 +75,7 @@ class ProjectModal extends Component {
             <div className={"modal " + showHideClassName}>
             <div className="outer">
             <div className="middle">
-                <section className={"modal-main " + project.type}>
+                <section ref={node => this.node = node} className={"modal-main " + project.type}>
                     <p className="close-btn" onClick={this.props.handleClose}><i className="fas fa-times"></i></p>
                     <p className="project-title">{project.title}</p>
                     {project_course}
