@@ -66,8 +66,9 @@ class ProjectModal extends Component {
             : <p className="project-course">{project.course}</p>;
 
         let project_infos = [];
+        let counter = 0;
         for(var info_part in project.info){
-            project_infos.push(<p>{project.info[info_part]}</p>);
+            project_infos.push(<p key={"info"+counter++}>{project.info[info_part]}</p>);
         }
         let project_info = (<div className="project-info">{project_infos}</div>)
 
