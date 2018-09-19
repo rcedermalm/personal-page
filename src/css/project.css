@@ -1,55 +1,55 @@
 /***********************************/
 /* The different types of projects */
 /***********************************/
+.type-graphics {
+    background-color: #DD3B2C;
+    fill: #DD3B2C;
+    color: #EFA59F;
+}
+.type-graphics:hover {
+    color: #A12B21;
+}
 
 .type-webb {
-    background-color: #7cb82f;
+    background-color: #7cb82f;   
     fill: #7cb82f;
-    color: #b0d775;
+    color: #C3DEA0;
 }
 
 .type-webb:hover {
-    color: #5b912d;
-}
-
-.type-graphics {
-    background-color: #e68523;   
-    fill: #e68523;
-    color: #f3b86d;
-}
-
-.type-graphics:hover {
-    color: #bd5c14;
+    color: #5B8623;
 }
 
 .type-game {
-    background-color: #00aeb3;
-    fill: #00aeb3;
-    color: #80ced0;
+    background-color: #00CC70;
+    fill: #00CC70;
+    color: #8BE7BE;
 }
+
 .type-game:hover {
-    color: #1a858e;
+    color: #009552;
 }
 
 .type-signal-processing {
-    background-color: #dd5143;
-    fill: #dd5143;  
-    color: #f38a78;
+    background-color: #00AEB3;   
+    fill: #00AEB3;
+    color: #8BDADC;
 }
 
 .type-signal-processing:hover {
-    color: #af1923;
+    color: #007F83;
 }
 
 .type-other {
-    background-color: #edb220;   
-    fill: #edb220;
-    color: #f4d161;
+    background-color: #F98B1D;
+    fill: #F98B1D;  
+    color: #FCCA98;
 }
 
 .type-other:hover {
-    color: #b98d27;
+    color: #B66616;
 }
+
 
 /***********************************/
 /*    Overview of the projects     */

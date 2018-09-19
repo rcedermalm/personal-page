@@ -34,15 +34,15 @@ class Projects extends Component {
         <div>
           <div className="colour-descriptions">
             <svg className="desc-center" height="30" width="30">
-              <circle className="type-webb" cx="15" cy="15" r="10" />
-            </svg>
-          <p className="desc-center">- Webb</p>
-          </div>
-          <div className="colour-descriptions">
-            <svg className="desc-center" height="30" width="30">
               <circle className="type-graphics" cx="15" cy="15" r="10"/>
             </svg>
           <p className="desc-center">- Graphics</p>
+          </div>
+          <div className="colour-descriptions">
+            <svg className="desc-center" height="30" width="30">
+              <circle className="type-webb" cx="15" cy="15" r="10" />
+            </svg>
+          <p className="desc-center">- Webb</p>
           </div>
           <div className="colour-descriptions">
             <svg className="desc-center" height="30" width="30">
