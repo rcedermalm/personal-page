@@ -1,5 +1,5 @@
 .general-info-body {
-    background-color: green;
+    background-color: #3e4450;
     color: white; 
     font-size: 16px;
     padding: 50px 0;
@@ -30,15 +30,15 @@
 }
 
 .info-link, .info-link:visited {
-    color: lightgreen;
+    color: #b9b9b7;
     text-decoration: none;
 }
 
 .info-link:active {
-    color: darkgreen;
+    color: #050607;
     text-decoration: none;
 }
 
 .info-link:hover {
-    color: darkgreen;
+    color: #050607;
 }

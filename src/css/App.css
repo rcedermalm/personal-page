@@ -12,7 +12,7 @@
 
 .jumbotron {
   height: 100vh;
-  background-image: url('../images/blurry_background.jpg');
+  background-image: url('../images/pohuto_geiser.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -26,6 +26,42 @@
   height: 50vh;
   margin-top: 10vh;
   margin-bottom: 5vh;
+}
+
+html {
+  background-color:#3e4450;
+}
+
+body {
+  background-color: white;
+}
+
+.footer {
+  background-color: #3e4450;
+  color: white;
+  min-height: 30vh;
+  font-size: 16px;
+}
+
+.footer-body {
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  padding: 50px 8% 0 !important;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cake-icon {
+  font-size: 100px;
+}
+
+.copyright {
+  padding-right: 4vw;
+  text-align: right;
 }
 
 .modal-open {
