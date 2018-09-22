@@ -10,7 +10,7 @@ class Card extends Component {
             <img className="card-image" src={"https://drive.google.com/uc?id=" + info.image_id} alt=""/>
             <div className="w3-container w3-center">
               <p className="card-title">{info.title}</p>
-              <p className="card-course">{info.course}</p>
+              <p className="card-info">{info.course}</p>
             </div> 
           </div> 
       );

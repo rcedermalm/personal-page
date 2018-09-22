@@ -19,11 +19,11 @@
 .card-title {
     font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 0 !important;
     color:white;
 }
 
-.card-course {
+.card-info {
     font-size: 12px;
     margin:0;
     color:white;
