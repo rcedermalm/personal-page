@@ -2,52 +2,52 @@
 /* The different types of projects */
 /***********************************/
 .type-graphics {
-    background-color: #DD3B2C;
-    fill: #DD3B2C;
-    color: #EFA59F;
+    background-color: #dd8b84;
+    fill: #dd8b84;
+    color: #ddc9c7;
 }
 .type-graphics:hover {
-    color: #A12B21;
+    color: #935d58;
 }
 
 .type-webb {
-    background-color: #7cb82f;   
-    fill: #7cb82f;
-    color: #C3DEA0;
+    background-color: #90b85c;   
+    fill: #90b85c;
+    color: #cde4b0;
 }
 
 .type-webb:hover {
-    color: #5B8623;
+    color: #587630;
 }
 
 .type-game {
-    background-color: #00CC70;
-    fill: #00CC70;
-    color: #8BE7BE;
+    background-color: #66cc9e;
+    fill: #66cc9e;
+    color: #c4f3de;
 }
 
 .type-game:hover {
-    color: #009552;
+    color: #2a815a;
 }
 
 .type-signal-processing {
-    background-color: #00AEB3;   
-    fill: #00AEB3;
-    color: #8BDADC;
+    background-color: #46adb0;   
+    fill: #46adb0;
+    color: #b7e3e4;
 }
 
 .type-signal-processing:hover {
-    color: #007F83;
+    color: #28797b;
 }
 
 .type-other {
-    background-color: #F98B1D;
-    fill: #F98B1D;  
-    color: #FCCA98;
+    background-color: #f9af66;
+    fill: #f9af66;  
+    color: #fae5d1;
 }
 
 .type-other:hover {
-    color: #B66616;
+    color: #bc6e22;
 }
 
 
@@ -61,6 +61,7 @@
     margin: 10px;
     cursor: pointer;
     color: white;
+    /*color: #000;*/
     display:inline-block;
     vertical-align:top;
     -webkit-box-shadow: 0 0 5px #DCDCDC;
@@ -77,12 +78,14 @@
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 3px;
+    /*color: #000;*/
     color:white;
 }
 
 .project-course {
     font-size: 12px;
     margin:0;
+    /*color: #000;*/
     color:white;
 }
 
@@ -140,6 +143,7 @@
   
 .modal-main {
     color: white !important;
+    /*color: #000 !important; */
     font-size: 14px;
     margin: auto auto; 
     padding: 20px;
