@@ -24,7 +24,7 @@ class App extends Component {
                 <p>Hopefully you learned something new about me and I am thanking you for taking your time looking though all of this. Feel free to contact me if you have any questions.</p>
               </Col>
               <Col className="footer-column">
-              <i class="fas fa-birthday-cake cake-icon align-middle"></i> 
+              <i className="fas fa-birthday-cake cake-icon align-middle"></i> 
               </Col>
             </Row>
           </Container>
