@@ -31,7 +31,7 @@ class Projects extends Component {
   render() {
     return (<div className="projects">
         <h1 className="projects-large-title">Projects</h1>
-        <div>
+        <div className="types-of-projects">
           <div className="colour-descriptions">
             <svg className="desc-center" height="30" width="30">
               <circle className="type-graphics" cx="15" cy="15" r="10"/>

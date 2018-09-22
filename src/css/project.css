@@ -95,9 +95,13 @@
     margin: 20px;
 }
 
+.types-of-projects {
+    margin-bottom: 40px;
+}
+
 .colour-descriptions{
     display: inline-block;
-    margin: 0 10px 40px 10px;
+    margin: 0 10px;
     font-size: 14px;
 }
 
