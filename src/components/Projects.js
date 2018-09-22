@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as actions from '.././actions/actions';
 import PropTypes from 'prop-types';
-import Project from './Project.js';
+import Card from './Card.js';
 import Modal from './Modal.js';
 import '../css/project.css';
 
@@ -47,9 +47,16 @@ class Projects extends Component {
 
   getProjectShortInfo() {
     let project = this.state.current_project_in_modal;
-    let short_info = (project.year !== null) ? 
-    <p className="project-course">{project.course}, year {project.year}</p> 
-    : <p className="project-course">{project.course}</p>;
+    let course_info = (project.year !== null) ? 
+    <p className="short-project-info">{project.course}, year {project.year}</p> 
+    : <p className="short-project-info">{project.course}</p>;
+
+    let short_info = (
+      <div>
+        {course_info}
+        <p className="short-project-info">{project.duration} | Collaborators: {project.nr_collabs}</p>
+      </div>)
+
     return short_info;
   }
 
@@ -150,7 +157,7 @@ class Projects extends Component {
           </div>
         </div>
         {this.props.projects.map((item) => (
-          <Project key={item.title} project={item} handleOnClick={() => this.showProjectInfo(item)}/>
+          <Card key={item.title} info={item} handleOnClick={() => this.showProjectInfo(item)}/>
         ))}
         { this.state.current_project_in_modal !== null ? 
           <Modal 
