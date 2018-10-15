@@ -43,20 +43,6 @@
             "github": ""
         },
         {
-            "title": "Run dAIno run",
-            "course": "TNM095 - AI for interactive media",
-            "year": 5,	
-            "duration": "Sep 2018 – Okt 2018",
-            "nr_collabs": 0,
-            "image_id": "13RdRmgatNS-ssAZ5INK_f_wXNrSCygnz",	
-            "info": ["Project in the course Artificial Intelligence for Interactive Media. A version of the Offline Google Chrome game, an endless runner, was created and an AI agent was taught how to play it using Reinforcement Learning and Q-Learning.", "This project is still ongoing and will be finished in the end of October. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019. The computer graphics field is something that has really grown on me and it is a field I would love to do my master thesis project in. Therefore I decided to showcase my current and upcoming projects in the field."],	
-            "skills_developed": "Javascript, Reinforcement learning, Q-learning",
-            "type": "type-game",	
-            "movie": "",	
-            "homepage": "",
-            "github": "https://github.com/rcedermalm/run-dAIno-run"
-        },
-        {
             "title": "Monte-Carlo Ray-Tracer",
             "course": "TNCG15 - Adv. Global Illumination and Rendering",
             "year": 5,	
@@ -69,6 +55,20 @@
             "movie": "",	
             "homepage": "",
             "github": ""
+        },
+        {
+            "title": "Run dAIno run",
+            "course": "TNM095 - AI for interactive media",
+            "year": 5,	
+            "duration": "Sep 2018 – Okt 2018",
+            "nr_collabs": 0,
+            "image_id": "1cgCGDh9RnUOWMunoOllCZPupg6x_ygib",	
+            "info": ["Project in the course Artificial Intelligence for Interactive Media. A version of the Offline Google Chrome game, an endless runner, was created and an AI agent was taught how to play it using Reinforcement Learning and Q-Learning.", "This project is still ongoing and will be finished in the end of October. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019."],	
+            "skills_developed": "Javascript, Reinforcement learning, Q-learning",
+            "type": "type-game",	
+            "movie": "",	
+            "homepage": "",
+            "github": "https://github.com/rcedermalm/run-dAIno-run"
         },
         {
             "title": "MovieViz",
