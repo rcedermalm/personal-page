@@ -48,13 +48,13 @@
             "year": 5,	
             "duration": "Sep 2018 – Okt 2018",
             "nr_collabs": 1,
-            "image_id": "13RdRmgatNS-ssAZ5INK_f_wXNrSCygnz",	
-            "info": ["Project in the course Global Illumination and Rendering where we got the chance to implement a Monte-Carlo ray-tracer with transparent and perfectly reflecting objects and objects that are Lambertian and Oren-Nayar reflectors.", "This project is still ongoing and will be finished in the end of October. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019. The computer graphics field is something that has really grown on me and it is a field I would love to do my master thesis project in. Therefore I decided to showcase my current and upcoming projects in the field."],	
+            "image_id": "1g0tryMzsjyPeRPANZ_5qmP7MWQSHexyA",	
+            "info": ["Project in the course Global Illumination and Rendering", "A Whitted Ray Tracer with Monte Carlo integration was implemented in C++. The ray-tracer was implemented to be able to handle scenes including objects which materials were perfect reflectors or Lambertian reflectors.","The results of the renderer using only the Whitted ray tracing algorithm were compared with those of the Whitted Ray Tracer with Monte Carlo Integration. It could be seen that the Monte Carlo integration gave a grainier result in the case of few rays per pixel. When more rays were introduced the result became better.", "The ray-tracer will be extended to be able to handle transparent objects and Oren-Nayar surfaces. If time permitts, photon mapping will also be integrated so the renderer can handle caustics correctly as well."],	
             "skills_developed": "C++",
             "type": "type-graphics",	
             "movie": "",	
             "homepage": "",
-            "github": ""
+            "github": "https://github.com/rcedermalm/Monte-Carlo-ray-tracer"
         },
         {
             "title": "Run dAIno run",
@@ -63,11 +63,11 @@
             "duration": "Sep 2018 – Okt 2018",
             "nr_collabs": 0,
             "image_id": "1cgCGDh9RnUOWMunoOllCZPupg6x_ygib",	
-            "info": ["Project in the course Artificial Intelligence for Interactive Media. A version of the Offline Google Chrome game, an endless runner, was created and an AI agent was taught how to play it using Reinforcement Learning and Q-Learning.", "This project is still ongoing and will be finished in the end of October. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019."],	
+            "info": ["This project was made during the course TNM095 Artificial Intelligence in Interactive Media.", "A version of the game created as an offline game for Google Chrome was implemented using Javascript and the framework Phaser.io. The game is an endless runner where the player plays a dinosaur trying to survive in the desert. This is done by jumping over or moving below different kinds of obstacles.", "An AI agent was trained to play the game using reinforcement learning and Q-learning. Q-learning is a part of machine learning where the agent learns to optimize the policy by the rewards given. It explores the world by doing an action and seeing what reward it gets. The world is represented as different states and for each state the agent can make a few actions. In this case the state is represented by the distance to the closest obstacle, the distance to the end of the closest obstacle, the y-value of the closest obstacle and if the player is in the air or not. The actions possible are jumping or doing nothing. ", "Q-learning has been proved to be a good method for this kind of problem. The agent was able to learn the game very good and could possible survive in it forever. The agent also handles a change in velocity of the game pretty well but to really make it work, another action, like being able to duck and therefore fall faster to the ground, needs to be introduced."],
             "skills_developed": "Javascript, Reinforcement learning, Q-learning",
             "type": "type-game",	
             "movie": "",	
-            "homepage": "",
+            "homepage": "https://rcedermalm.github.io/run-dAIno-run/",
             "github": "https://github.com/rcedermalm/run-dAIno-run"
         },
         {
