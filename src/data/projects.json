@@ -1,20 +1,6 @@
 {
     "projects": [
         {
-            "title": "Project in SFX",
-            "course": "TNCG13 - SFX, Tricks of the Trade",
-            "year": 5,	
-            "duration": "Nov 2018 – Dec 2018",
-            "nr_collabs": 0,
-            "image_id": "153H5mq08dpxCWF-okH-QHHsMCC4bTMws",	
-            "info": ["Project that will be done in the course SFX, Tricks of the Trade. The course has not started yet but I find Voronoi shattering interesting so the project might end up with that.", "This project is soon to be started and wil be finished in the end of December. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019. The computer graphics field is something that has really grown on me and it is a field I would love to do my master thesis project in. Therefore I decided to showcase my current and upcoming projects in the field."],	
-            "skills_developed": "Undecided",
-            "type": "type-graphics",	
-            "movie": "",	
-            "homepage": "",
-            "github": ""
-        },
-        {
             "title": "Procedural project",
             "course": "TNM084 - Procedural Methods for Images",
             "year": 5,	
@@ -29,18 +15,32 @@
             "github": ""
         },
         {
+            "title": "Position Based Fluid Simulation",
+            "course": "TNCG13 - SFX, Tricks of the Trade",
+            "year": 5,	
+            "duration": "Nov 2018 – Dec 2018",
+            "nr_collabs": 1,
+            "image_id": "13RdRmgatNS-ssAZ5INK_f_wXNrSCygnz",	
+            "info": ["Project in the course SFX - Tricks of the Trade.", "The project is a fluid simulation written as a script for Maya. The simulation uses the Position Based Fluid method to compute each keyframe."],	
+            "skills_developed": "Python",
+            "type": "type-graphics",	
+            "movie": "",	
+            "homepage": "",
+            "github": "https://github.com/karsa755/TNCG13--fluid-based-dynamics"
+        },
+        {
             "title": "Real-Time Rendering of Fur",
             "course": "TSBK03 - Advanced Game Programming",
             "year": 5,	
             "duration": "Okt 2018 – Dec 2018",
             "nr_collabs": 0,
-            "image_id": "13RdRmgatNS-ssAZ5INK_f_wXNrSCygnz",	
-            "info": ["Project in the course Advanced Game Programming or according to the examinator, Advanced techniques for Game Programming. This project has just begun and I have chosen to implement a real-time rendering of fur. Currently I am looking into what method that is the most suitable.", "This project is still ongoing and will be finished in the end of December. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019. The computer graphics field is something that has really grown on me and it is a field I would love to do my master thesis project in. Therefore I decided to showcase my current and upcoming projects in the field."],	
+            "image_id": "1y6ACtW55Sig0AkuO2CjBTELmyAdCIWEe",	
+            "info": ["Project in the course Advanced Game Programming or according to the examinator, Advanced techniques for Game Programming.", "The project is a real-time rendering and simulation of hair/fur. It uses a method where master hair strands are created and simulated. These are then interpolated to become more hairs.", "This was the first project where I took the chance to play around with tesselation, geometry and compute shaders. It was a lot of fun and I am pleased with the result.", "The project is still ongoing and will hopefully end in something beautiful!"],	
             "skills_developed": "C++, OpenGL, GLSL",
             "type": "type-graphics",	
             "movie": "",	
             "homepage": "",
-            "github": ""
+            "github": "https://github.com/rcedermalm/Realtime-Rendering-of-Fur"
         },
         {
             "title": "Monte-Carlo Ray-Tracer",
