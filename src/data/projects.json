@@ -1,18 +1,18 @@
 {
     "projects": [
         {
-            "title": "Procedural project",
+            "title": "Procedural Trees",
             "course": "TNM084 - Procedural Methods for Images",
             "year": 5,	
-            "duration": "Nov 2018 – Dec 2018",
+            "duration": "Jan 2019",
             "nr_collabs": 0,
-            "image_id": "153H5mq08dpxCWF-okH-QHHsMCC4bTMws",	
-            "info": ["Project that will be done in the course Procedural Methods for Images. The course has not started yet but I have given the project a thought and I think I want to create trees procedurally, perhaps using fractals.", "This project is soon to be started and wil be finished in the end of December. The reason that it is present here among all my finished projects is that I wanted to showcase what kind of projects I will have completed before I start on my master thesis in the beginning of 2019. The computer graphics field is something that has really grown on me and it is a field I would love to do my master thesis project in. Therefore I decided to showcase my current and upcoming projects in the field."],	
-            "skills_developed": "Undecided",
+            "image_id": "1jZ78Dpu_cxV6BD3W114ZGV4Ooi9M5qh7",	
+            "info": ["Project in the course Procedural Methods for Images. The chosen project was to generate trees prodecurally using L-system and some randomizations.", "The way trees and plants grow follows a natural fractal system called a Lindenmayer-system, or L-system for short. L-systems are strings where characters gets substituted iteratively by longer strings depending on some predefined production rules. After a few iterations the string is very long and can be interpreted graphically using a chosen alphabet.", "The project have used L-systems to procedurally generate trees successfully. Some randomizations were added to the L-system to make the trees look different even though they are generated using the same L-system. The final result is a low poly version of pretty realistic looking trees. "],	
+            "skills_developed": "C++, OpenGL",
             "type": "type-graphics",	
             "movie": "",	
             "homepage": "",
-            "github": ""
+            "github": "https://github.com/rcedermalm/Procedural-Trees"
         },
         {
             "title": "Position Based Fluid Simulation",
@@ -20,11 +20,11 @@
             "year": 5,	
             "duration": "Nov 2018 – Dec 2018",
             "nr_collabs": 1,
-            "image_id": "13RdRmgatNS-ssAZ5INK_f_wXNrSCygnz",	
-            "info": ["Project in the course SFX - Tricks of the Trade.", "The project is a fluid simulation written as a script for Maya. The simulation uses the Position Based Fluid method to compute each keyframe."],	
+            "image_id": "1XSwyzPO29tYu8U_WKU41r_ooubzG6N5T",	
+            "info": ["Project in the course SFX - Tricks of the Trade. The project is a fluid simulation written as a script for Maya.", "Fluid simulations are important components for effects in film and games. In nature almost all fluids are viscous which makes viscoelastic fluids especially interesting to simulate.","This project uses the Position Based Fluid method to simulate how honey moves and acts when falling into a box. The Position Based Fluid simulation method is an integration of the Smoothed Particle Hydrodynamics method into the Particle Based Dynamics framework. Materials, lights and environments were added to the simulation to make the it look visually pleasing. The result is stable and realistically simulates the motion of honey."],	
             "skills_developed": "Python",
             "type": "type-graphics",	
-            "movie": "",	
+            "movie": "https://www.youtube.com/watch?v=uxZReNpv4zQ",	
             "homepage": "",
             "github": "https://github.com/karsa755/TNCG13--fluid-based-dynamics"
         },
@@ -35,10 +35,10 @@
             "duration": "Okt 2018 – Dec 2018",
             "nr_collabs": 0,
             "image_id": "1y6ACtW55Sig0AkuO2CjBTELmyAdCIWEe",	
-            "info": ["Project in the course Advanced Game Programming or according to the examinator, Advanced techniques for Game Programming.", "The project is a real-time rendering and simulation of hair/fur. It uses a method where master hair strands are created and simulated. These are then interpolated to become more hairs.", "This was the first project where I took the chance to play around with tesselation, geometry and compute shaders. It was a lot of fun and I am pleased with the result.", "The project is still ongoing and will hopefully end in something beautiful!"],	
+            "info": ["Project in the course Advanced Game Programming or according to the examinator, Advanced techniques for Game Programming.", "The project is a real-time rendering and simulation of hair/fur. It uses a method where master hair strands are created and simulated. These are then interpolated to become more hairs. The project uses the method proposed by Han and Harada in 2012 to simulate the hair strands of the fur. This method is stable enough for real-time purposes and preserves the initial style of the fur. The method worked very well and the result looks pretty good.", "This was the first project where I took the chance to play around with tesselation, geometry and compute shaders. It was a lot of fun and I am pleased with the result."],	
             "skills_developed": "C++, OpenGL, GLSL",
             "type": "type-graphics",	
-            "movie": "",	
+            "movie": "https://www.youtube.com/watch?v=UTkMCiZSpkA&t=7s",	
             "homepage": "",
             "github": "https://github.com/rcedermalm/Realtime-Rendering-of-Fur"
         },
@@ -49,7 +49,7 @@
             "duration": "Sep 2018 – Okt 2018",
             "nr_collabs": 1,
             "image_id": "1g0tryMzsjyPeRPANZ_5qmP7MWQSHexyA",	
-            "info": ["Project in the course Global Illumination and Rendering", "A Whitted Ray Tracer with Monte Carlo integration was implemented in C++. The ray-tracer was implemented to be able to handle scenes including objects which materials were perfect reflectors or Lambertian reflectors.","The results of the renderer using only the Whitted ray tracing algorithm were compared with those of the Whitted Ray Tracer with Monte Carlo Integration. It could be seen that the Monte Carlo integration gave a grainier result in the case of few rays per pixel. When more rays were introduced the result became better.", "The ray-tracer will be extended to be able to handle transparent objects and Oren-Nayar surfaces. If time permitts, photon mapping will also be integrated so the renderer can handle caustics correctly as well."],	
+            "info": ["Project in the course Global Illumination and Rendering", "A Whitted Ray Tracer with Monte Carlo integration was implemented in C++. The ray-tracer was implemented to be able to handle scenes including objects which materials were perfect reflectors or Lambertian reflectors.","The results of the renderer using only the Whitted ray tracing algorithm were compared with those of the Whitted Ray Tracer with Monte Carlo Integration. It could be seen that the Monte Carlo integration gave a grainier result in the case of few rays per pixel. When more rays were introduced the result became better."],	
             "skills_developed": "C++",
             "type": "type-graphics",	
             "movie": "",	
