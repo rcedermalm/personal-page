@@ -13,13 +13,13 @@ class GeneralInfo extends Component {
               <div className="info-text">
               <p>              
                 My name is Rebecca Cedermalm and I am a girl born 1995 with a passion for computer graphics. 
-                I am currently studying my fifth and last year at the Master of Science program of Media 
-                Technology at Linkoping University in Sweden. The short version of what the program contains is: 
-                programming, computer graphics and information visualization combined with the regular engineering parts. 
-                The reason I chose Media Technology is the unique combination of maths and creative visualisations.
+                I am an alumni from the Master of Science program of Media Technology at Linkoping University in Sweden. 
+                The short version of what the program contains is: programming, computer graphics and information visualization 
+                combined with the regular engineering parts. The reason I chose Media Technology is the unique combination of 
+                maths and creative visualisations.
               </p>
               <p>
-                During my free time I love to spend my time reading, watching movies or creating something fun visually. 
+                During my free time I love to spend my time reading, hiking, exploring my surroundings, watching movies or creating something fun visually. 
                 The fun part can be everything between a splash of paint on a canvas to hobby projects using code. 
               </p>
               <p>

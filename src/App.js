@@ -12,7 +12,6 @@ class App extends Component {
         <header className="App-header jumbotron">
           <img src={profile_image} alt="" className="profile-image"/>
           <h1>Rebecca Cedermalm</h1>
-          <h2>Media Technology student</h2>
         </header>
         <GeneralInfo/>
         <Projects/>
